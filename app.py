@@ -1,42 +1,27 @@
 import streamlit as st
 import numpy as np
+import torch
 import pandas as pd
 import matplotlib.pyplot as plt
-import torch as th
-import json
-import os
 from polypharmacy_env import PolypharmacyEnv
-from morl_baselines.multi_policy.gpi_pd.gpi_pd import GPIPD
 
-st.set_page_config(layout="wide", page_title="Polypharmacy RL Analysis")
+st.set_page_config(page_title="Polypharmacy RL", layout="wide")
 
-st.title("💊 Multi-Objective RL for Polypharmacy — Interactive Viewer")
+st.title("🧠 Polypharmacy Regimen Optimization (Inference Only)")
+st.write("Minimal Streamlit interface for your trained GPIPD model.")
 
-#############################################
-# Load Model
-#############################################
-st.sidebar.header("🔍 Model Loader")
+MODEL_PATH = "gpipd_model_latest.tar"
 
-uploaded_model = st.sidebar.file_uploader("Upload GPIPD Model (.tar)", type=["tar"])
 
-if uploaded_model:
-    # Save temp
-    model_path = "uploaded_model.tar"
-    with open(model_path, "wb") as f:
-        f.write(uploaded_model.read())
+# ---------------------------------------------------
+# Load agent + environment
+# ---------------------------------------------------
+@st.cache_resource
+def load_agent():
+    from morl_baselines.multi_policy.gpi_pd.gpi_pd import GPIPD
 
-    st.sidebar.success("Model uploaded!")
+    env = PolypharmacyEnv()
 
-#############################################
-# Initialize environment
-#############################################
-env = PolypharmacyEnv()
-
-#############################################
-# Load Agent (only if model available)
-#############################################
-if uploaded_model:
-    st.sidebar.write("Initializing Agent...")
     agent = GPIPD(
         env=env,
         learning_rate=3e-4,
@@ -49,77 +34,60 @@ if uploaded_model:
         log=False,
         dyna=False
     )
-    agent.load(model_path)
-    st.sidebar.success("Model loaded!")
+    agent.load(MODEL_PATH)
+    return agent, env
 
-#############################################
-# Helper: Predict Using RL Policy
-#############################################
-def agent_predict(obs, w):
-    return agent.eval(obs, w)
+agent, env = load_agent()
+st.success("Model loaded successfully.")
 
-#############################################
-# Section 1 — Weight Control Panel
-#############################################
-st.header("⚖️ Weight Selection for Multi-Objective Tradeoffs")
 
-w1 = st.slider("Efficacy weight", 0.0, 1.0, 0.33)
-w2 = st.slider("DDI weight", 0.0, 1.0, 0.33)
-w3 = st.slider("Tolerability weight", 0.0, 1.0, 0.34)
+# -----------------------------
+# Weight Input
+# -----------------------------
+st.sidebar.header("Weights (Efficacy / DDI / Tolerability)")
 
-weight_vector = np.array([w1, w2, w3])
-weight_vector /= weight_vector.sum()
+w1 = st.sidebar.slider("Efficacy Weight", 0.0, 1.0, 0.3)
+w2 = st.sidebar.slider("DDI Weight", 0.0, 1.0, 0.3)
+w3 = st.sidebar.slider("Tolerability Weight", 0.0, 1.0, 0.4)
 
-st.write(f"Active weight vector: **{weight_vector}**")
+weight_vec = np.array([w1, w2, w3], dtype=np.float32)
+weight_vec /= weight_vec.sum()
 
-#############################################
-# Section 2 — Simulate Episode
-#############################################
-st.header("🎬 Simulate Prescription Strategy")
+st.sidebar.write("Normalized:", weight_vec.tolist())
 
-if uploaded_model:
-    if st.button("Run 1 Episode"):
-        obs, _ = env.reset()
-        total_reward = np.zeros(3)
 
-        steps = []
-        done = False
-        while not done:
-            action = agent_predict(obs, weight_vector)
-            obs, reward, done, trunc, info = env.step(action)
-            total_reward += reward
-            steps.append({
-                "action": int(action),
-                "reward_efficacy": reward[0],
-                "reward_ddi": reward[1],
-                "reward_tol": reward[2],
-                "hadm_id": info["hadm_id"]
-            })
+# -----------------------------
+# Run 1-step simulation
+# -----------------------------
+st.header("🔍 Single-Step Simulation")
 
-        st.subheader("📊 Episode Summary")
-        st.json({
-            "total_reward": total_reward.tolist(),
-            "steps": steps
-        })
+obs, _ = env.reset()
+st.write("Initial Observation:", obs)
 
-#############################################
-# Section 3 — Visualizations
-#############################################
-st.header("📈 Visualizations")
+if st.button("Run Step"):
+    action = agent.eval(obs, weight_vec)
+    next_obs, reward, done, trunc, info = env.step(action)
 
-uploaded_json = st.file_uploader("Upload Phase 8 JSON (optional)", type=["json"])
+    st.write("### Action:", action)
+    st.write("Reward:", reward)
+    st.write("Next Obs:", next_obs)
+    st.write("Info:", info)
+    st.success("Inference completed.")
 
-if uploaded_json:
-    data = json.load(uploaded_json)
 
-    st.subheader("Pareto Frontier (Mean)")
-    if "pareto_plot" in data:
-        st.image(data["pareto_plot"])
+# -----------------------------
+# Optional scatter visualization
+# -----------------------------
+st.header("📊 Upload Evaluation CSV (Optional)")
 
-    st.subheader("Action Frequency Heatmap")
-    if "heatmap" in data:
-        st.image(data["heatmap"])
+uploaded = st.file_uploader("Upload phase7 or phase8 CSV", type=["csv"])
+if uploaded:
+    df = pd.read_csv(uploaded)
+    st.dataframe(df.head())
 
-#############################################
-st.markdown("---")
-st.write("🔥 **Powered by MORL-Baselines + Streamlit**")
+    fig, ax = plt.subplots(figsize=(6, 4))
+    ax.scatter(df["efficacy"], df["neg_ddi"], c=df["neg_tol"], cmap="viridis")
+    ax.set_xlabel("Efficacy")
+    ax.set_ylabel("DDI Risk")
+    ax.set_title("Pareto Scatter")
+    st.pyplot(fig)
