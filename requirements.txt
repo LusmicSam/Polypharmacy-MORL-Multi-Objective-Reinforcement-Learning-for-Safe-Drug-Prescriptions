@@ -2,8 +2,8 @@ streamlit
 pandas
 numpy
 matplotlib
-seaborn
+altair
+plotly
 scikit-learn
-gymnasium
-torch
-morl-baselines @ git+https://github.com/morl-baselines/morl-baselines.git
+gymnasium==0.29.1
+morl-baselines @ git+https://github.com/RL-Polypharmacy/MORL-baselines.git
