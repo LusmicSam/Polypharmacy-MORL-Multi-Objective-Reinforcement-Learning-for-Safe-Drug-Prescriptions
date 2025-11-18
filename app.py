@@ -61,7 +61,7 @@ def load_clean_model():
     ckpt = torch.load(MODEL_CLEAN_PATH, map_location="cpu")
 
     q_nets = []
-    for q_state in ckpt["q_networks"]:
+    for q_state in ckpt["q_nets"]:
         q = CleanQNet()
         q.load_state_dict(q_state)
         q.eval()
@@ -208,3 +208,4 @@ if st.button("Predict Action"):
 
     except:
         st.error("Invalid input format. Use comma-separated floats.")
+
