@@ -3,7 +3,6 @@ pandas
 numpy
 matplotlib
 plotly
-gymnasium==0.29.1
 torch==2.3.0+cpu
+gymnasium==0.29.1
 -f https://download.pytorch.org/whl/cpu
-morl-baselines @ git+https://github.com/morl-baselines/morl-baselines.git
