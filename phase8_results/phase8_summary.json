@@ -1,0 +1,29 @@
+{
+  "timestamp": "20251118_050009",
+  "n_weights": 40,
+  "episodes_per_weight": 50,
+  "pareto_count": 5,
+  "raw_json": "/content/drive/MyDrive/ML Patent/polypharmacy_project/phase7_results/phase8_results_20251118_050009/phase8_raw_results.json",
+  "flat_csv": "/content/drive/MyDrive/ML Patent/polypharmacy_project/phase7_results/phase8_results_20251118_050009/phase8_flat_results.csv",
+  "pareto_csv": "/content/drive/MyDrive/ML Patent/polypharmacy_project/phase7_results/phase8_results_20251118_050009/pareto_front_mean_by_weight.csv",
+  "pareto_plot": "/content/drive/MyDrive/ML Patent/polypharmacy_project/phase7_results/phase8_results_20251118_050009/pareto_front_plot.png",
+  "heatmap": "/content/drive/MyDrive/ML Patent/polypharmacy_project/phase7_results/phase8_results_20251118_050009/action_frequency_heatmap.png",
+  "radar": "/content/drive/MyDrive/ML Patent/polypharmacy_project/phase7_results/phase8_results_20251118_050009/tradeoff_radar_plots.png",
+  "corr_matrix": "/content/drive/MyDrive/ML Patent/polypharmacy_project/phase7_results/phase8_results_20251118_050009/reward_correlation_matrix.png",
+  "mean_rewards": {
+    "obj0": 0.12897999889403583,
+    "obj1": -0.02736000108718872,
+    "obj2": -2.630034459605813
+  },
+  "std_rewards": {
+    "obj0": 0.22932434108126395,
+    "obj1": 0.13769572238106279,
+    "obj2": 2.525901678121713
+  },
+  "top_policy_by_tolerability": [
+    0
+  ],
+  "bottom_policy_by_tolerability": [
+    1
+  ]
+}
