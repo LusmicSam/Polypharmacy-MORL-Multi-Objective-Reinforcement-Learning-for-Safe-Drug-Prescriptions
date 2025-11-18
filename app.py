@@ -36,11 +36,9 @@ class CleanQNet(nn.Module):
             nn.ReLU(),
         )
         self.net = nn.Sequential(
-            nn.Linear(128, 128),
+            nn.Linear(128, 128),   # net.0
             nn.ReLU(),
-            nn.Linear(128, 128),
-            nn.ReLU(),
-            nn.Linear(128, 6)   # 2 actions × 3 reward dims
+            nn.Linear(128, 6)      # net.2 → matches checkpoint
         )
 
     def forward(self, state, weight):
@@ -208,4 +206,5 @@ if st.button("Predict Action"):
 
     except:
         st.error("Invalid input format. Use comma-separated floats.")
+
 
