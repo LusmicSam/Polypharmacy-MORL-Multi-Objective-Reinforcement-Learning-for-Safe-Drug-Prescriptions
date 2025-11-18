@@ -1,93 +1,66 @@
+import torch
 import streamlit as st
 import numpy as np
-import torch
-import pandas as pd
-import matplotlib.pyplot as plt
 from polypharmacy_env import PolypharmacyEnv
 
-st.set_page_config(page_title="Polypharmacy RL", layout="wide")
-
-st.title("🧠 Polypharmacy Regimen Optimization (Inference Only)")
-st.write("Minimal Streamlit interface for your trained GPIPD model.")
-
+# Load model file
 MODEL_PATH = "gpipd_model_latest.tar"
 
+st.title("Polypharmacy MORL Policy Viewer")
 
-# ---------------------------------------------------
-# Load agent + environment
-# ---------------------------------------------------
 @st.cache_resource
-def load_agent():
-    from morl_baselines.multi_policy.gpi_pd.gpi_pd import GPIPD
+def load_model():
+    checkpoint = torch.load(MODEL_PATH, map_location="cpu")
+    q_nets = []
 
-    env = PolypharmacyEnv()
+    # Load saved Q-networks
+    for i in range(2):  # GPIPD has 2 psi nets
+        key = f"psi_net_{i}_state_dict"
+        if key in checkpoint:
+            q_net = build_q_net()               # We'll define this next
+            q_net.load_state_dict(checkpoint[key])
+            q_nets.append(q_net)
 
-    agent = GPIPD(
-        env=env,
-        learning_rate=3e-4,
-        gamma=0.99,
-        batch_size=256,
-        net_arch=[128, 128],
-        buffer_size=int(5e4),
-        initial_epsilon=0.05,
-        final_epsilon=0.05,
-        log=False,
-        dyna=False
+    weight_support = checkpoint["M"]
+
+    return q_nets, weight_support
+
+
+def build_q_net():
+    # Minimal network architecture identical to training
+    return torch.nn.Sequential(
+        torch.nn.Linear(4 + 3, 128),
+        torch.nn.ReLU(),
+        torch.nn.Linear(128, 128),
+        torch.nn.ReLU(),
+        torch.nn.Linear(128, 2 * 3)  # action_dim * reward_dim
     )
-    agent.load(MODEL_PATH)
-    return agent, env
-
-agent, env = load_agent()
-st.success("Model loaded successfully.")
 
 
-# -----------------------------
-# Weight Input
-# -----------------------------
-st.sidebar.header("Weights (Efficacy / DDI / Tolerability)")
+def eval_action(q_nets, obs, w):
+    obs = torch.tensor(obs, dtype=torch.float32)
+    w = torch.tensor(w, dtype=torch.float32)
 
-w1 = st.sidebar.slider("Efficacy Weight", 0.0, 1.0, 0.3)
-w2 = st.sidebar.slider("DDI Weight", 0.0, 1.0, 0.3)
-w3 = st.sidebar.slider("Tolerability Weight", 0.0, 1.0, 0.4)
+    psi_values = q_nets[0](torch.cat([obs, w]))
+    psi_values = psi_values.view(2, 3)       # reshape to (num_actions, reward_dim)
 
-weight_vec = np.array([w1, w2, w3], dtype=np.float32)
-weight_vec /= weight_vec.sum()
-
-st.sidebar.write("Normalized:", weight_vec.tolist())
+    # scalarize
+    scalar_q = torch.matmul(psi_values, w)
+    action = torch.argmax(scalar_q).item()
+    return action
 
 
-# -----------------------------
-# Run 1-step simulation
-# -----------------------------
-st.header("🔍 Single-Step Simulation")
+# Load model
+q_nets, weight_support = load_model()
+st.success("Model loaded successfully!")
 
-obs, _ = env.reset()
-st.write("Initial Observation:", obs)
+env = PolypharmacyEnv()
 
-if st.button("Run Step"):
-    action = agent.eval(obs, weight_vec)
-    next_obs, reward, done, trunc, info = env.step(action)
+# UI
+weight = st.slider("Tradeoff (w1 = efficacy, w2 = DDI, w3 = tolerability)", 0.0, 1.0, 0.33)
+w = np.array([weight, 1 - weight, 0.1])
 
-    st.write("### Action:", action)
-    st.write("Reward:", reward)
-    st.write("Next Obs:", next_obs)
-    st.write("Info:", info)
-    st.success("Inference completed.")
-
-
-# -----------------------------
-# Optional scatter visualization
-# -----------------------------
-st.header("📊 Upload Evaluation CSV (Optional)")
-
-uploaded = st.file_uploader("Upload phase7 or phase8 CSV", type=["csv"])
-if uploaded:
-    df = pd.read_csv(uploaded)
-    st.dataframe(df.head())
-
-    fig, ax = plt.subplots(figsize=(6, 4))
-    ax.scatter(df["efficacy"], df["neg_ddi"], c=df["neg_tol"], cmap="viridis")
-    ax.set_xlabel("Efficacy")
-    ax.set_ylabel("DDI Risk")
-    ax.set_title("Pareto Scatter")
-    st.pyplot(fig)
+if st.button("Predict Action"):
+    obs, _ = env.reset()
+    action = eval_action(q_nets, obs, w)
+    st.write("Recommended Action:", action)
