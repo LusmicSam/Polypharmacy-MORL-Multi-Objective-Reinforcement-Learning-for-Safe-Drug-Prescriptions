@@ -3,6 +3,5 @@ pandas
 numpy
 matplotlib
 plotly
-torch==2.3.0+cpu
+torch==2.3.0
 gymnasium==0.29.1
--f https://download.pytorch.org/whl/cpu
