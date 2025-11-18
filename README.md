@@ -1,0 +1,2 @@
+# Polypharmacy-MORL-Multi-Objective-Reinforcement-Learning-for-Safe-Drug-Prescriptions
+A full end-to-end research pipeline using Multi-Objective Reinforcement Learning (MORL) to optimize polypharmacy decisions across competing clinical objectives — drug efficacy, DDI (drug–drug interaction) risk, and patient tolerability. Includes a custom environment, GPIPD implementation, Pareto analysis, weight sweeps, 
