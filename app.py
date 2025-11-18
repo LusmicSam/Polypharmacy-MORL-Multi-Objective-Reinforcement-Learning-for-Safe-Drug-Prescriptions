@@ -27,25 +27,30 @@ st.title("💊 Polypharmacy MORL — Interactive Explorer (Phase 7 & 8 Results)"
 class CleanQNet(nn.Module):
     def __init__(self):
         super().__init__()
+
         self.weights_features = nn.Sequential(
             nn.Linear(3, 128),
             nn.ReLU(),
         )
+
         self.state_features = nn.Sequential(
             nn.Linear(4, 128),
             nn.ReLU(),
         )
+
+        # EXACT network you trained
         self.net = nn.Sequential(
             nn.Linear(128, 128),   # net.0
             nn.ReLU(),
-            nn.Linear(128, 6)      # net.2 → matches checkpoint
+            nn.LayerNorm(128),     # net.2  ← matches shape [128] + [128]
+            nn.ReLU(),
+            nn.Linear(128, 6)      # net.4
         )
 
     def forward(self, state, weight):
         w = self.weights_features(weight)
         s = self.state_features(state)
-        fused = w * s
-        return self.net(fused)
+        return self.net(w * s)
 
 
 # ================================
@@ -206,5 +211,6 @@ if st.button("Predict Action"):
 
     except:
         st.error("Invalid input format. Use comma-separated floats.")
+
 
 
