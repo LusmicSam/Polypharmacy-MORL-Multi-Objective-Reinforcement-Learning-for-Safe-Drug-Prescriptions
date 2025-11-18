@@ -2,8 +2,7 @@ streamlit
 pandas
 numpy
 matplotlib
-altair
 plotly
-scikit-learn
 gymnasium==0.29.1
-morl-baselines @ git+https://github.com/RL-Polypharmacy/MORL-baselines.git
+torch==2.3.0+cpu
+-f https://download.pytorch.org/whl/cpu
