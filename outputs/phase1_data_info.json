@@ -1,0 +1,22 @@
+{
+  "mimic3_shape": [
+    10398,
+    19
+  ],
+  "admissions_shape": [
+    129,
+    19
+  ],
+  "patients_shape": [
+    100,
+    8
+  ],
+  "ddinter_shape": [
+    160235,
+    5
+  ],
+  "ddinter_files": 1,
+  "sider_drug_names": 1430,
+  "sider_atc": 1560,
+  "sider_se": 309849
+}

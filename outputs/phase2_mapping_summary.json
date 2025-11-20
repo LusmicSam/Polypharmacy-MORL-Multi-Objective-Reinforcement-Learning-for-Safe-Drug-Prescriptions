@@ -1,0 +1,14 @@
+{
+  "total_drugs": 592,
+  "mapped_drugs": 72,
+  "unmapped_drugs": 520,
+  "mapping_rate": 12.162162162162161,
+  "atc_distribution": {
+    "N": 23,
+    "B": 15,
+    "C": 15,
+    "J": 9,
+    "A": 8,
+    "H": 2
+  }
+}

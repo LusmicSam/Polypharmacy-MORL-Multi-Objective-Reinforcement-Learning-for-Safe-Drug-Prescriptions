@@ -1,0 +1,11 @@
+{
+  "total_prescriptions": 10256,
+  "unique_patients": 93,
+  "unique_admissions": 121,
+  "mean_drugs_per_admission": 36.17355371900826,
+  "median_drugs_per_admission": 34.0,
+  "max_drugs_per_admission": 143,
+  "mean_age": 71.88429752066116,
+  "prescriptions_with_atc": 5134,
+  "atc_mapping_rate": 50.058502340093604
+}

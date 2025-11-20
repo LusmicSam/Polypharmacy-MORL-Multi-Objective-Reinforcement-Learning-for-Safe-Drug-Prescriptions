@@ -1,0 +1,29 @@
+{
+  "total_admissions": 121,
+  "total_patients": 93,
+  "mean_age": 71.88429752066116,
+  "mean_drugs": 36.17355371900826,
+  "mean_ddis": 49.578512396694215,
+  "mean_major_ddis": 1.578512396694215,
+  "mean_moderate_ddis": 9.884297520661157,
+  "mean_total_se": 0.0,
+  "features_created": [
+    "hadm_id",
+    "total_se",
+    "mean_se",
+    "n_drugs",
+    "ddi_count",
+    "major_count",
+    "moderate_count",
+    "age",
+    "subject_id",
+    "ddi_rate",
+    "major_ddi_rate",
+    "moderate_ddi_rate",
+    "se_rate",
+    "age_group",
+    "drug_category",
+    "ddi_risk"
+  ],
+  "feature_count": 16
+}

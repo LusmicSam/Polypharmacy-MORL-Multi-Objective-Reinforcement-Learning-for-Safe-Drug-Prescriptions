@@ -1,0 +1,593 @@
+original_name,normalized_name,sider_match,atc_code,match_confidence
+Pneumococcal Vac Polyvalent,pneumococcal vac polyvalent,pneumococcal,J07AL02,0.95
+Bisacodyl,bisacodyl,bisacodyl,A06AB02,1.0
+Senna,senna,senna,A06AB06,0.95
+Docusate Sodium (Liquid),docusate sodium,docusate,A06AA02,0.95
+Heparin,heparin,heparin,B01AB01,1.0
+Simvastatin,simvastatin,simvastatin,C10AA01,1.0
+Aspirin,aspirin,aspirin,A01AD05,1.0
+Donepezil,donepezil,donepezil,N06DA02,1.0
+Gabapentin,gabapentin,gabapentin,N03AX12,1.0
+Namenda,namenda,,,0.0
+Tolterodine,tolterodine,tolterodine,G04BD07,1.0
+Metoprolol Succinate XL,metoprolol succinate xl,metoprolol,C07AB02,0.95
+Tamsulosin,tamsulosin,tamsulosin,G04CA02,1.0
+Docusate Sodium,docusate sodium,docusate,A06AA02,0.95
+Sodium Chloride 0.9%  Flush,sodium chloride 0.9%  flush,,,0.0
+Guaifenesin,guaifenesin,guaifenesin,R05CA03,1.0
+Albuterol Inhaler,albuterol,,,0.0
+Amlodipine,amlodipine,amlodipine,C08CA01,1.0
+Finasteride,finasteride,finasteride,D11AX10,1.0
+Levothyroxine Sodium,levothyroxine sodium,,,0.0
+Tiotropium Bromide,tiotropium bromide,,,0.0
+Azithromycin,azithromycin,azithromycin,J01FA10,1.0
+PredniSONE,prednisone,prednisone,A07EA03,1.0
+Sodium Chloride Nasal,sodium chloride nasal,,,0.0
+Heparin Flush (10 units/ml),heparin flush,heparin,B01AB01,0.95
+Multivitamins,multivitamins,,,0.0
+Ferrous Sulfate,ferrous sulfate,,,0.0
+Ipratropium Bromide Neb,ipratropium bromide neb,,,0.0
+Albuterol 0.083% Neb Soln,albuterol 0.083% neb soln,,,0.0
+Sertraline,sertraline,sertraline,N06AB06,1.0
+Allopurinol,allopurinol,allopurinol,M04AA01,1.0
+Pantoprazole,pantoprazole,pantoprazole,A02BC02,1.0
+Furosemide,furosemide,furosemide,C03CA01,1.0
+Carvedilol,carvedilol,carvedilol,C07AG02,1.0
+Metoprolol Tartrate,metoprolol tartrate,metoprolol,C07AB02,0.95
+Lactulose,lactulose,lactulose,A06AD11,1.0
+Rifaximin,rifaximin,rifaximin,A07AA11,1.0
+Fentanyl Citrate,fentanyl citrate,fentanyl,N02AB03,0.95
+Midazolam,midazolam,midazolam,N05CD08,1.0
+Propofol,propofol,propofol,N01AX10,1.0
+Atropine Sulfate,atropine sulfate,,,0.0
+Chlorhexidine Gluconate 0.12% Oral Rinse,chlorhexidine gluconate 0.12% rinse,,,0.0
+Ipratropium Bromide MDI,ipratropium bromide mdi,,,0.0
+Morphine Sulfate,morphine sulfate,morphine,N02AA01,0.95
+1/2 NS,1/2 ns,,,0.0
+Vial,vial,,,0.0
+0.9% Sodium Chloride,0.9% sodium chloride,,,0.0
+Iso-Osmotic Dextrose,iso-osmotic dextrose,,,0.0
+0.9% Sodium Chloride (Mini Bag Plus),0.9% sodium chloride,,,0.0
+NS,ns,,,0.0
+5% Dextrose,5% dextrose,,,0.0
+D5W,d5w,,,0.0
+Pantoprazole Sodium,pantoprazole sodium,pantoprazole,A02BC02,0.75
+Vancomycin,vancomycin,vancocine,A07AA09,0.75
+CefePIME,cefepime,cefepime,J01DE01,1.0
+MetRONIDAZOLE (FLagyl),metronidazole,metronidazole,A01AB17,1.0
+Norepinephrine,norepinephrine,norepinephrine,C01CA03,1.0
+Oxycodone-Acetaminophen,oxycodone-acetaminophen,acetaminophen,N02BE01,0.95
+Paroxetine,paroxetine,paroxetine,N06AB05,1.0
+Ascorbic Acid,ascorbic acid,,,0.0
+Creon 10,creon 10,,,0.0
+Acetaminophen,acetaminophen,acetaminophen,N02BE01,1.0
+Ondansetron,ondansetron,ondansetron,A04AA01,1.0
+DiphenhydrAMINE,diphenhydramine,diphenhydramine,D04AA32,1.0
+Ciprofloxacin HCl,ciprofloxacin hcl,ciprofloxacin,J01MA02,0.75
+Polyethylene Glycol,polyethylene glycol,,,0.0
+Magnesium Sulfate,magnesium sulfate,,,0.0
+Neutra-Phos,neutra-phos,,,0.0
+Morphine Sulfate IR,morphine sulfate ir,morphine,N02AA01,0.95
+Acetylcysteine 20%,acetylcysteine 20%,n-acetylcysteine,R05CB01,0.75
+Albumin 25% (12.5g / 50mL),albumin 25%,,,0.0
+Valsartan,valsartan,valsartan,C09CA03,1.0
+Calcium Carbonate,calcium carbonate,,,0.0
+Miconazole Powder 2%,miconazole 2%,miconazole,A01AB09,0.75
+Albumin 5% (25g / 500mL),albumin 5%,,,0.0
+Sodium Polystyrene Sulfonate,sodium polystyrene sulfonate,,,0.0
+Calcium Gluconate,calcium gluconate,,,0.0
+Albumin 5% (12.5g / 250mL),albumin 5%,,,0.0
+D5 1/2NS,d5 1/2ns,,,0.0
+LR,lr,,,0.0
+D5NS,d5ns,,,0.0
+SW,sw,,,0.0
+Potassium Phosphate,potassium phosphate,,,0.0
+Hespan,hespan,heparin,B01AB01,0.75
+Influenza Virus Vaccine,influenza virus vaccine,,,0.0
+Dextrose 50%,dextrose 50%,,,0.0
+Calcitriol,calcitriol,calcipotriol,D05AX02,0.75
+Benzonatate,benzonatate,benzonatate,R05DB01,1.0
+Spironolactone,spironolactone,spironolactone,C03DA01,1.0
+Cyanocobalamin,cyanocobalamin,cyanocobalamin,B03BA01,1.0
+Isosorbide Mononitrate (Extended Release),isosorbide mononitrate,isosorbide-5-mononitrate,C01DA14,0.75
+HydrALAzine,hydralazine,hydralazine,C02DB02,1.0
+Levofloxacin,levofloxacin,ofloxacin,J01MA01,0.75
+Olanzapine (Disintegrating Tablet),olanzapine,olanzapine,N05AH03,1.0
+Cefpodoxime Proxetil,cefpodoxime proxetil,,,0.0
+Haloperidol,haloperidol,haloperidol,N05AD01,1.0
+Olanzapine,olanzapine,olanzapine,N05AH03,1.0
+OxycoDONE (Immediate Release) ,oxycodone,oxycodone,N02AA05,1.0
+Glucagon,glucagon,glucagon,H04AA01,1.0
+Omeprazole,omeprazole,omeprazole,A02BC01,1.0
+Heparin Sodium,heparin sodium,heparin,B01AB01,0.95
+Lisinopril,lisinopril,lisinopril,C09AA03,1.0
+Glipizide,glipizide,glipizide,A10BB07,1.0
+Metoprolol,metoprolol,metoprolol,C07AB02,1.0
+Sevelamer,sevelamer,sevelamer,V03AE02,1.0
+Insulin,insulin,insulin,A10AB01,1.0
+Magnesium Oxide,magnesium oxide,magnesium,A12CC30,0.75
+Linezolid,linezolid,linezolid,J01XX08,1.0
+Potassium Chloride,potassium chloride,,,0.0
+Diphenhydramine HCl,diphenhydramine hcl,diphenhydramine,D04AA32,0.75
+Zolpidem Tartrate,zolpidem tartrate,,,0.0
+Midazolam HCl,midazolam hcl,midazolam,N05CD08,0.75
+Metronidazole,metronidazole,metronidazole,A01AB17,1.0
+Phytonadione,phytonadione,,,0.0
+Alteplase (Catheter Clearance),alteplase,,,0.0
+Warfarin,warfarin,warfarin,B01AA03,1.0
+Moexipril HCl,moexipril hcl,,,0.0
+Atorvastatin,atorvastatin,atorvastatin,C10AA05,1.0
+Metoclopramide,metoclopramide,metoclopramide,A03FA01,1.0
+Ceftriaxone,ceftriaxone,ceftriaxone,J01DD04,1.0
+Vancomycin HCl,vancomycin hcl,vancomycin,J01XA01,0.95
+Ampicillin Sodium,ampicillin sodium,,,0.0
+Unasyn,unasyn,,,0.0
+Prochlorperazine,prochlorperazine,prochlorperazine,N05AB04,1.0
+Naproxen,naproxen,naproxen,G02CC02,1.0
+Dronabinol,dronabinol,,,0.0
+Tizanidine HCl,tizanidine hcl,tizanidine,M03BX02,0.75
+traMADOL,tramadol,tramadol,N02AX02,1.0
+Enoxaparin Sodium,enoxaparin sodium,,,0.0
+Ketorolac,ketorolac,ketorolac,M01AB15,1.0
+Cosyntropin,cosyntropin,cosyntropin,H01AA02,1.0
+Captopril,captopril,captopril,C09AA01,1.0
+Cefazolin,cefazolin,cefazolin,J01DB04,1.0
+Phenylephrine HCl,phenylephrine hcl,phenylephrine,C01CA06,0.75
+Heparin Flush CVL  (100 units/ml),heparin flush cvl,heparin,B01AB01,0.95
+Artificial Tears,artificial tears,,,0.0
+Carbidopa-Levodopa (25-250),carbidopa-levodopa,,,0.0
+Albuterol,albuterol,,,0.0
+Dexamethasone,dexamethasone,dexamethasone,A01AC02,1.0
+Fludrocortisone Acetate,fludrocortisone acetate,fludrocortisone,H02AA02,0.75
+Lansoprazole Oral Suspension,lansoprazoleension,lansoprazole,A02BC03,0.75
+Clopidogrel Bisulfate,clopidogrel bisulfate,,,0.0
+Hydralazine HCl,hydralazine hcl,hydralazine,C02DB02,0.75
+Erythromycin 0.5% Ophth Oint,erythromycin 0.5% ophth oint,,,0.0
+DOBUTamine,dobutamine,dobutamine,C01CA07,1.0
+Hydrocortisone Na Succ.,hydrocortisone na succ.,hydrocortisone,D07AB02,0.75
+Humulin-R Insulin,humulin-r insulin,insulin,A10AB01,0.95
+Multivitamin IV,multivitamin,,,0.0
+Enalaprilat,enalaprilat,,,0.0
+Syringe,syringe,,,0.0
+Dextrose 5%,dextrose 5%,,,0.0
+Fat Emulsion 20%,fat emulsion 20%,,,0.0
+Amino Acids 4.25% W/ Dextrose 5%,amino acids 4.25% w/ dextrose 5%,,,0.0
+Iso-Osmotic Sodium Chloride,iso-osmotic sodium chloride,,,0.0
+Azithromycin ,azithromycin,azithromycin,J01FA10,1.0
+Famotidine,famotidine,famotidine,A02BA03,1.0
+Lansoprazole,lansoprazole,lansoprazole,A02BC03,1.0
+Metoprolol XL,metoprolol xl,metoprolol,C07AB02,0.75
+Atenolol,atenolol,atenolol,C07AB03,1.0
+Neomycin-Polymyxin-Dexameth Ophth. Oint,neomycin-polymyxin-dexameth ophth. oint,,,0.0
+Calcium Chloride,calcium chloride,,,0.0
+Carbidopa-Levodopa (10-100),carbidopa-levodopa,,,0.0
+Hydrochlorothiazide,hydrochlorothiazide,hydrochlorothiazide,C03AA03,1.0
+Escitalopram Oxalate,escitalopram oxalate,,,0.0
+Hydrocodone-Acetaminophen,hydrocodone-acetaminophen,acetaminophen,N02BE01,0.95
+Lorazepam,lorazepam,lorazepam,N05BA06,1.0
+Prednisone,prednisone,prednisone,A07EA03,1.0
+Metformin,metformin,metformin,A10BA02,1.0
+Vitamin D,vitamin d,vitamin,A11CC01,0.75
+Fluticasone Propionate 110mcg,fluticasone propionate 110mcg,,,0.0
+Alendronate Sodium,alendronate sodium,alendronate,M05BA04,0.75
+Albuterol Neb Soln,albuterol neb soln,,,0.0
+Levetiracetam,levetiracetam,levetiracetam,N03AX14,1.0
+Zonisamide,zonisamide,zonisamide,N03AX15,1.0
+Sodium Chloride,sodium chloride,,,0.0
+Ampicillin,ampicillin,ampicillin,J01CA01,1.0
+Tuberculin Protein,tuberculin protein,,,0.0
+Mineral Oil,mineral oil,,,0.0
+Cephalexin,cephalexin,cephalexin,J01DB01,1.0
+Estrogens Conjugated,estrogens conjugated,,,0.0
+Nitrofurantoin (Macrodantin),nitrofurantoin,nitrofurantoin,J01XE01,1.0
+Hydrocortisone,hydrocortisone,hydrocortisone,D07AB02,1.0
+Neostigmine,neostigmine,neostigmine,N07AA01,1.0
+Glycopyrrolate,glycopyrrolate,glycopyrrolate,A03AB02,1.0
+Acetaminophen (Liquid),acetaminophen,acetaminophen,N02BE01,1.0
+HydrALAZINE HCl,hydralazine hcl,hydralazine,C02DB02,0.75
+Timolol Maleate 0.25%,timolol maleate 0.25%,,,0.0
+Brimonidine Tartrate 0.15% Ophth.,brimonidine tartrate 0.15% ophth.,,,0.0
+Ursodiol,ursodiol,,,0.0
+HYDROmorphone (Dilaudid),hydromorphone,hydromorphone,N02AA03,1.0
+Meperidine,meperidine,meperidine,N02AB02,1.0
+Levalbuterol HCl,levalbuterol hcl,,,0.0
+Hydromorphone,hydromorphone,hydromorphone,N02AA03,1.0
+Oxycodone-Acetaminophen Elixir,oxycodone-acetaminophen,acetaminophen,N02BE01,0.95
+Doxazosin,doxazosin,doxazosin,C02CA04,1.0
+Folic Acid,folic acid,,,0.0
+Papain 2.5 % Solution,papain 2.5 %,,,0.0
+Potassium Chl 20 mEq / 1000 mL D5 1/2 NS,potassium chl 20 meq / 1000 ml d5 1/2 ns,,,0.0
+CefazoLIN,cefazolin,cefazolin,J01DB04,1.0
+Labetalol,labetalol,labetalol,C07AG01,1.0
+Xopenex,xopenex,,,0.0
+Ondansetron ODT,ondansetron odt,ondansetron,A04AA01,0.75
+Loperamide,loperamide,loperamide,A07DA03,1.0
+Potassium Chl 40 mEq / 1000 mL NS,potassium chl 40 meq / 1000 ml ns,,,0.0
+Piperacillin-Tazobactam Na,piperacillin-tazobactam na,,,0.0
+Ciprofloxacin IV,ciprofloxacin,ciprofloxacin,J01MA02,1.0
+CeftriaXONE,ceftriaxone,ceftriaxone,J01DD04,1.0
+Ranitidine,ranitidine,ranitidine,A02BA02,1.0
+Aspirin EC,aspirin ec,aspirin,A01AD05,0.75
+Milk of Magnesia,milk of magnesia,,,0.0
+Sucralfate,sucralfate,,,0.0
+GlipiZIDE,glipizide,glipizide,A10BB07,1.0
+Amiodarone HCl,amiodarone hcl,amiodarone,C01BD01,0.75
+Exelon,exelon,,,0.0
+D5W (EXCEL BAG),d5w,,,0.0
+Nitroglycerin,nitroglycerin,nitroglycerin,C01DA02,1.0
+Insulin Human Regular,insulin human regular,insulin,A10AB01,0.95
+Milrinone,milrinone,milrinone,C01CE02,1.0
+NiCARdipine IV,nicardipine,nicardipine,C08CA04,1.0
+Diltiazem,diltiazem,diltiazem,C08DB01,1.0
+Adenosine,adenosine,adenosine,C01EB10,1.0
+Phenytoin Sodium,phenytoin sodium,,,0.0
+Carbidopa-Levodopa CR (25-100),carbidopa-levodopa,,,0.0
+Lacri-Lube Oint,lacri-lube oint,,,0.0
+Lansoprazole Oral Solution,lansoprazole,lansoprazole,A02BC03,1.0
+NS        (Glass Bottle),ns,,,0.0
+Nafcillin,nafcillin,oxacillin,J01CF04,0.75
+AcetaZOLamide Sodium,acetazolamide sodium,acetazolamide,S01EC01,0.75
+Phenylephrine,phenylephrine,phenylephrine,C01CA06,1.0
+Epoetin Alfa,epoetin alfa,,,0.0
+Acetaminophen w/Codeine,acetaminophen w/codeine,acetaminophen,N02BE01,0.95
+Ciprofloxacin,ciprofloxacin,ciprofloxacin,J01MA02,1.0
+Dorzolamide 2%/Timolol 0.5% Ophth.,dorzolamide 2%/timolol 0.5% ophth.,,,0.0
+Artificial Tear Ointment,artificial tear,,,0.0
+Lumigan,lumigan,,,0.0
+Cromolyn,cromolyn,,,0.0
+Donepezil 5 mg or Placebo,donepezil 5 mg or placebo,donepezil,N06DA02,0.95
+donepezil 5 mg or placebo,donepezil 5 mg or placebo,donepezil,N06DA02,0.95
+Naphazoline-Pheniramine Ophth. Solution,naphazoline-pheniramine ophth.,,,0.0
+Zinc Sulfate,zinc sulfate,,,0.0
+TraMADOL (Ultram),tramadol,tramadol,N02AX02,1.0
+traZODONE HCl,trazodone hcl,trazodone,A06AC07,0.75
+Lidocaine 1%,lidocaine 1%,lidocaine,C01BB01,0.75
+Heparin Flush PICC (100 units/ml),heparin flush picc,heparin,B01AB01,0.95
+Lansoprazole Oral Disintegrating Tab,lansoprazole disintegrating,,,0.0
+GlipiZIDE XL,glipizide xl,glipizide,A10BB07,0.75
+Famotidine (IV),famotidine,famotidine,A02BA03,1.0
+Nesiritide,nesiritide,nesiritide,C01DX19,1.0
+Losartan Potassium,losartan potassium,,,0.0
+Quinidine Gluconate,quinidine gluconate,,,0.0
+Digoxin,digoxin,digoxin,C01AA05,1.0
+Isosorbide Dinitrate,isosorbide dinitrate,isosorbide-5-mononitrate,C01DA14,0.75
+Multivitamins W/minerals,multivitamins w/minerals,,,0.0
+Flumazenil,flumazenil,flumazenil,V03AB25,1.0
+Propofol (Generic),propofol,propofol,N01AX10,1.0
+Albuterol-Ipratropium,albuterol-ipratropium,,,0.0
+Diazepam,diazepam,diazepam,N05BA01,1.0
+Dexamethasone Sod Phosphate,dexamethasone sod phosphate,,,0.0
+Labetalol HCl,labetalol hcl,labetalol,C07AG01,0.75
+Minoxidil,minoxidil,minoxidil,C02DC01,1.0
+Clonidine HCl,clonidine hcl,clonidine,C02AC01,0.75
+Phenytoin,phenytoin,phenytoin,N03AB02,1.0
+Sulfameth/Trimethoprim DS,sulfameth/trimethoprim ds,,,0.0
+NS (Glass Bottle),ns,,,0.0
+Soln.,soln.,,,0.0
+Nitroprusside Sodium,nitroprusside sodium,nitroprusside,C02DD01,0.75
+Mannitol 20%,mannitol 20%,mannitol,A06AD16,0.75
+Fondaparinux Sodium,fondaparinux sodium,fondaparinux,B01AX05,0.75
+DOPamine,dopamine,dopamine,C01CA04,1.0
+Clopidogrel,clopidogrel,clopidogrel,B01AC04,1.0
+PrednisoLONE Acetate 1% Ophth. Susp.,prednisolone acetate 1% ophth..,,,0.0
+Ciprofloxacin 0.3% Ophth Soln,ciprofloxacin 0.3% ophth soln,,,0.0
+Acular,acular,,,0.0
+Fluticasone-Salmeterol Diskus (250/50) ,fluticasone-salmeterol diskus,,,0.0
+traZODONE,trazodone,trazodone,A06AC07,1.0
+NS (Mini Bag Plus),ns,,,0.0
+Piperacillin-Tazobactam,piperacillin-tazobactam,,,0.0
+Ziprasidone,ziprasidone,ziprasidone,N05AE04,1.0
+Fluocinonide 0.05% Ointment,fluocinonide 0.05%,fluocinonide,C05AA11,0.75
+MethylPREDNISolone Sodium Succ,methylprednisolone sodium succ,methylprednisolone,D07AA01,0.75
+Thiamine,thiamine,thiamine,A11DA01,1.0
+FoLIC Acid,folic acid,,,0.0
+Cepacol (Menthol),cepacol,,,0.0
+Potassium Chloride Replacement (Oncology),potassium chloride replacement,,,0.0
+Penicillin V Potassium,penicillin v potassium,,,0.0
+Nephrocaps,nephrocaps,,,0.0
+Nystatin Oral Susp.,nystatin.,nystatin,A07AA02,0.75
+Chlorhexidine Gluconate,chlorhexidine gluconate,,,0.0
+Guaifenesin-Codeine Phosphate,guaifenesin-codeine phosphate,,,0.0
+Nitroglycerin Oint. 2%,nitroglycerin oint. 2%,,,0.0
+Nitroglycerin SL,nitroglycerin sl,nitroglycerin,C01DA02,0.75
+Aluminum-Magnesium Hydrox.-Simethicone,aluminum-magnesium hydrox.-simethicone,,,0.0
+Promethazine,promethazine,promethazine,D04AA10,1.0
+Felodipine,felodipine,felodipine,C08CA02,1.0
+Propra,propra,,,0.0
+Propranolol,propranolol,propranolol,C07AA05,1.0
+Lidocaine 5% Patch,lidocaine 5%,lidocaine,C01BB01,0.75
+Quetiapine Fumarate,quetiapine fumarate,,,0.0
+Cefepime,cefepime,cefepime,J01DE01,1.0
+Diltiazem Extended-Release,diltiazem extended-release,,,0.0
+D5LR,d5lr,,,0.0
+Penicillin G Potassium,penicillin g potassium,,,0.0
+Ferrous Gluconate,ferrous gluconate,,,0.0
+Fluticasone-Salmeterol (100/50),fluticasone-salmeterol,,,0.0
+Venlafaxine XR,venlafaxine,venlafaxine,N06AX16,1.0
+Methimazole,methimazole,methimazole,H03BB02,1.0
+Oxycodone (Sustained Release),oxycodone,oxycodone,N02AA05,1.0
+Mirtazapine,mirtazapine,mirtazapine,N06AX11,1.0
+Amiodarone,amiodarone,amiodarone,C01BD01,1.0
+Oxybutynin,oxybutynin,oxybutynin,G04BD04,1.0
+Phenazopyridine,phenazopyridine,,,0.0
+Torsemide,torsemide,torasemide,C03CA04,0.75
+Dolasetron Mesylate,dolasetron mesylate,,,0.0
+sodium bicarb,sodium bicarb,,,0.0
+Isotonic Sodium Chloride,isotonic sodium chloride,,,0.0
+Sterile Water For Irrigation,sterile water for irrigation,,,0.0
+Bag,bag,,,0.0
+CeftAZIDime,ceftazidime,ceftazidime,J01DD02,1.0
+Fluconazole,fluconazole,fluconazole,D01AC15,1.0
+Daptomycin,daptomycin,capreomycin,J04AB30,0.75
+Sodium Bicarbonate,sodium bicarbonate,,,0.0
+DopAmine,dopamine,dopamine,C01CA04,1.0
+Gentamicin,gentamicin,gentamicin,D06AX07,1.0
+Vancomycin Enema,vancomycin enema,vancomycin,J01XA01,0.95
+"Albumin, Human","albumin, human",,,0.0
+Vancomycin Oral Liquid,vancomycin,vancocine,A07AA09,0.75
+Albumin 5% (25 g),albumin 5%,,,0.0
+Albumin 25% (12.5 g),albumin 25%,,,0.0
+NIFEdipine CR,nifedipine,nifedipine,C08CA05,1.0
+Latanoprost 0.005% Ophth. Soln.,latanoprost 0.005% ophth. soln.,,,0.0
+Simethicone,simethicone,trimethadione,N03AC02,0.75
+Lidocaine Viscous 2%,lidocaine viscous 2%,,,0.0
+Benzocaine 20% Spray,benzocaine 20%,benzocaine,C05AD03,0.75
+DiphenhydrAMINE HCl,diphenhydramine hcl,diphenhydramine,D04AA32,0.75
+Nystatin Oral Suspension,nystatinension,,,0.0
+Pioglitazone HCl,pioglitazone hcl,pioglitazone,A10BG03,0.75
+Thiamine HCl,thiamine hcl,thiamine,A11DA01,0.75
+Fluticasone-Salmeterol (250/50) ,fluticasone-salmeterol,,,0.0
+Oxycodone,oxycodone,oxycodone,N02AA05,1.0
+Potassium Chl 40 mEq / 1000 mL D5 1/2 NS,potassium chl 40 meq / 1000 ml d5 1/2 ns,,,0.0
+Butalbital-Acet-Caffeine,butalbital-acet-caffeine,,,0.0
+Alprazolam,alprazolam,alprazolam,N05BA12,1.0
+Acyclovir,acyclovir,acyclovir,D06BB03,1.0
+Acebutolol HCl,acebutolol hcl,acebutolol,C07AB04,0.75
+Lidocaine Jelly 2% (Urojet),lidocaine jelly 2%,,,0.0
+Pravastatin,pravastatin,pravastatin,C10AA03,1.0
+Indomethacin,indomethacin,indomethacin,C01EB03,1.0
+Nicotine Patch,nicotine,nicotine,N07BA01,1.0
+Sumatriptan Succinate,sumatriptan succinate,,,0.0
+Cinacalcet,cinacalcet,cinacalcet,H05BX01,1.0
+Quinapril,quinapril,quinapril,C09AA06,1.0
+Baclofen,baclofen,baclofen,M03BX01,1.0
+Tacrolimus,tacrolimus,tacrolimus,D11AH01,1.0
+Lidocaine 1%/Epinephrine 1:100000,lidocaine 1%/epinephrine 1:100000,,,0.0
+Fentanyl Patch,fentanyl,fentanyl,N01AH01,1.0
+Meropenem,meropenem,meropenem,J01DH02,1.0
+Tobramycin Sulfate,tobramycin sulfate,,,0.0
+*NF* Ertapenem Sodium,*nf*tapenem sodium,,,0.0
+Nystatin-Triamcinolone Cream,nystatin-triamcinolone,,,0.0
+Metolazone,metolazone,metolazone,C03BA08,1.0
+Vecuronium Bromide,vecuronium bromide,,,0.0
+AcetaZOLamide,acetazolamide,acetazolamide,S01EC01,1.0
+PHENObarbital,phenobarbital,phenobarbital,N03AA02,1.0
+Scopolamine Patch,scopolamine,scopolamine,A04AD01,1.0
+Potassium Chl 20 mEq / 1000 mL NS,potassium chl 20 meq / 1000 ml ns,,,0.0
+Soln,soln,,,0.0
+Potassium Chl 20 mEq / 1000 mL D5NS,potassium chl 20 meq / 1000 ml d5ns,,,0.0
+Fosphenytoin,fosphenytoin,fosphenytoin,N03AB05,1.0
+LeVETiracetam,levetiracetam,levetiracetam,N03AX14,1.0
+PENTObarbital Sodium,pentobarbital sodium,pentobarbital,N05CA01,0.75
+Sarna Lotion,sarna lotion,,,0.0
+Lidocaine,lidocaine,lidocaine,C01BB01,1.0
+Golytely,golytely,,,0.0
+Vasopressin,vasopressin,vasopressin,H01BA01,1.0
+Multivitamin 12,multivitamin 12,,,0.0
+Ceftazidime,ceftazidime,ceftazidime,J01DD02,1.0
+Pletal,pletal,,,0.0
+Salmeterol Xinafoate Diskus (50 mcg),salmeterol xinafoate diskus,,,0.0
+Dobutamine,dobutamine,dobutamine,C01CA07,1.0
+Calcium Replacement (Oncology),calcium replacement,,,0.0
+Danazol,danazol,danazol,G03XA01,1.0
+Hydroxyurea,hydroxyurea,hydroxyurea,L01XX05,1.0
+Loperamide HCl,loperamide hcl,loperamide,A07DA03,0.75
+Bismuth Subsalicylate,bismuth subsalicylate,,,0.0
+Tocopheryl,tocopheryl,,,0.0
+Clarithromycin,clarithromycin,clarithromycin,J01FA09,1.0
+Ethambutol HCl,ethambutol hcl,ethambutol,J04AK02,0.75
+Rifampin,rifampin,rifampicin,J04AB02,0.75
+Isoniazid,isoniazid,isoniazid,J04AC01,1.0
+Pyridoxine HCl,pyridoxine hcl,pyridoxine,A11HA02,0.75
+Pyrazinamide,pyrazinamide,pyrazinamide,J04AK01,1.0
+Methylprednisolone Na Succ,methylprednisolone na succ,methylprednisolone,D07AA01,0.75
+Cisatracurium Besylate,cisatracurium besylate,,,0.0
+Tarceva,tarceva,,,0.0
+sodium bic,sodium bic,sodium,A07EB01,0.75
+Dextromethorphan-Guaifenesin (Sugar Free),dextromethorphan-guaifenesin,,,0.0
+Codeine Sulfate,codeine sulfate,,,0.0
+Amoxicillin-Clavulanic Acid,amoxicillin-clavulanic acid,,,0.0
+Glyburide,glyburide,,,0.0
+Nystatin Ointment,nystatin,nystatin,A07AA02,1.0
+Cimetidine,cimetidine,cimetidine,A02BA01,1.0
+Paclitaxel,paclitaxel,paclitaxel,L01CD01,1.0
+Carboplatin,carboplatin,carboplatin,L01XA02,1.0
+Docetaxel,docetaxel,docetaxel,L01CD02,1.0
+Sterile Water,sterile water,,,0.0
+Syringe (IV Room),syringe,,,0.0
+D5W (Glass Bottle),d5w,,,0.0
+Sterile Diluent for Flolan,sterile diluent for flolan,,,0.0
+Valganciclovir HCl,valganciclovir hcl,valganciclovir,J05AB14,0.75
+Sulfameth/Trimethoprim,sulfameth/trimethoprim,,,0.0
+Lamivudine,lamivudine,lamivudine,J05AF05,1.0
+Sulfameth/Trimethoprim SS,sulfameth/trimethoprim ss,,,0.0
+Hepatitis B Immune Globulin (Nabi-HB),hepatitis b immune globulin,,,0.0
+Albumin 5% (12.5 g),albumin 5%,,,0.0
+Mycophenolate Mofetil,mycophenolate mofetil,,,0.0
+Albumin 5%,albumin 5%,,,0.0
+Albumin,albumin,,,0.0
+Calcium Acetate,calcium acetate,,,0.0
+Basiliximab,basiliximab,,,0.0
+Methylprednisolone Na Succ.,methylprednisolone na succ.,methylprednisolone,D07AA01,0.75
+Ganciclovir,ganciclovir,ganciclovir,J05AB06,1.0
+Epoprostenol Na,epoprostenol na,,,0.0
+Normocarb,normocarb,,,0.0
+Sodium Chloride ,sodium chloride,,,0.0
+Nitroglycerin Ointment  2%,nitroglycerin  2%,nitroglycerin,C01DA02,0.75
+Cetylpyridinium Chl (Cepacol),cetylpyridinium chl,,,0.0
+Clonazepam,clonazepam,clonazepam,N03AE01,1.0
+Tirofiban,tirofiban,tirofiban,B01AC17,1.0
+Albumin 25% (12.5gm),albumin 25%,,,0.0
+Octreotide Acetate,octreotide acetate,,,0.0
+Propoxyphene Nap.-Apap (N-100),propoxyphene nap.-apap,,,0.0
+Sirolimus,sirolimus,temsirolimus,L01XE09,0.75
+Lactulose Enema,lactulose enema,lactulose,A06AD11,0.75
+Sodium Phosphate,sodium phosphate,,,0.0
+Morphine SR (MS Contin),morphine,morphine,N02AA01,1.0
+Erythromycin,erythromycin,erythromycin,D10AF02,1.0
+Candesartan,candesartan,candesartan,C09CA06,1.0
+Gentamicin Sulfate,gentamicin sulfate,,,0.0
+Esmolol,esmolol,esmolol,C07AB09,1.0
+Dostinex,dostinex,,,0.0
+Midodrine HCl,midodrine hcl,midodrine,C01CA17,0.75
+CefTRIAXone,ceftriaxone,ceftriaxone,J01DD04,1.0
+Cabergoline,cabergoline,cabergoline,G02CB03,1.0
+Ranitidine (Liquid),ranitidine,ranitidine,A02BA02,1.0
+Timolol Maleate 0.5%,timolol maleate 0.5%,,,0.0
+Maalox/Diphenhydramine/Lidocaine,maalox/diphenhydramine/lidocaine,,,0.0
+Heparin Flush CRRT (5000 Units/mL),heparin flushrt,heparin,B01AB01,0.95
+Prismasate (B32 K2),prismasate,,,0.0
+Sodium Chloride 3% (Hypertonic),sodium chloride 3%,,,0.0
+Epinephrine,epinephrine,epinephrine,A01AD01,1.0
+Solution,solution,,,0.0
+Ampicillin-Sulbactam,ampicillin-sulbactam,,,0.0
+Methadone HCl,methadone hcl,methadone,N07BC02,0.75
+Ibuprofen Suspension,ibuprofenension,ibuprofen,C01EB16,0.75
+Sulfameth/Trimethoprim Suspension,sulfameth/trimethoprimension,,,0.0
+Clindamycin Suspension,clindamycinension,clindamycin,D10AF01,0.75
+Pseudoephedrine HCl,pseudoephedrine hcl,,,0.0
+Citalopram Hydrobromide,citalopram hydrobromide,,,0.0
+Dicloxacillin,dicloxacillin,dicloxacillin,J01CF01,1.0
+Promethazine HCl,promethazine hcl,promethazine,D04AA10,0.75
+Amphotericin B,amphotericin b,amphotericin,A01AB04,0.75
+Nadolol,nadolol,nadolol,C07AA12,1.0
+Heparin Flush ,heparin flush,heparin,B01AB01,0.95
+Heparin CRRT,heparinrt,heparin,B01AB01,0.75
+AMP,amp,,,0.0
+Montelukast Sodium,montelukast sodium,montelukast,R03DC03,0.75
+Heparin Flush Hickman (100 units/ml),heparin flush hickman,heparin,B01AB01,0.95
+Paroxetine HCl,paroxetine hcl,paroxetine,N06AB05,0.75
+Fleet Phospho-Soda,fleet phospho-soda,,,0.0
+tucks,tucks,,,0.0
+Lidocaine Jelly 2%,lidocaine jelly 2%,,,0.0
+HYDROmorphone-HP,hydromorphone-hp,hydromorphone,N02AA03,0.75
+Epinephrine HCl,epinephrine hcl,epinephrine,A01AD01,0.75
+PNEUMOcoccal Vac Polyvalent,pneumococcal vac polyvalent,pneumococcal,J07AL02,0.95
+Demeclocycline,demeclocycline,demeclocycline,D06AA01,1.0
+OxycoDONE-Acetaminophen Elixir,oxycodone-acetaminophen,acetaminophen,N02BE01,0.95
+OxycoDONE Liquid,oxycodone,oxycodone,N02AA05,1.0
+Clindamycin,clindamycin,clindamycin,D10AF01,1.0
+Clonidine Patch 0.1 mg/24 hr,clonidine 0.1 mg/24 hr,,,0.0
+Methylprednisolone,methylprednisolone,methylprednisolone,D07AA01,1.0
+Heparin Flush (100 units/ml),heparin flush,heparin,B01AB01,0.95
+Viokase-8,viokase-8,,,0.0
+Morphine Sulfate (Concentrated Oral Soln),morphine sulfate,morphine,N02AA01,0.95
+Hyoscyamine,hyoscyamine,,,0.0
+MetFORMIN XR (Glucophage XR),metformin,metformin,A10BA02,1.0
+Artificial Tears Preserv. Free,artificial tears preserv. free,,,0.0
+Cyproheptadine,cyproheptadine,cyproheptadine,R06AX02,1.0
+Ascorbic Acid (Liquid),ascorbic acid,,,0.0
+Morphine Sulfate (Oral Soln.),morphine sulfate,morphine,N02AA01,0.95
+Duloxetine,duloxetine,duloxetine,N06AX21,1.0
+Potassium Chloride (Powder),potassium chloride,,,0.0
+Creon 12,creon 12,,,0.0
+Acetaminophen IV,acetaminophen,acetaminophen,N02BE01,1.0
+Capsaicin 0.025%,capsaicin 0.025%,,,0.0
+Fleet Enema,fleet enema,,,0.0
+Sodium Bicarbo,sodium bicarbo,,,0.0
+Pancrelipase 5000,pancrelipase 5000,,,0.0
+Phosphorus,phosphorus,,,0.0
+Lactated Ringers,lactated ringers,,,0.0
+NORepinephrine,norepinephrine,norepinephrine,C01CA03,1.0
+Ferrous Sulfate (Liquid),ferrous sulfate,,,0.0
+0.45% Sodium Chloride,0.45% sodium chloride,,,0.0
+PHENYLEPHrine,phenylephrine,phenylephrine,C01CA06,1.0
+NS (Irrigation Bottle),ns,,,0.0
+Nystatin,nystatin,nystatin,A07AA02,1.0
+Potassium Chl 20 mEq / 1000 mL D5W,potassium chl 20 meq / 1000 ml d5w,,,0.0
+Citalopram,citalopram,citalopram,N06AB04,1.0
+Naloxone,naloxone,naloxone,V03AB15,1.0
+Multiple Vitamins Liq.,multiple vitamins liq.,,,0.0
+Guaifenesin-Dextromethorphan,guaifenesin-dextromethorphan,,,0.0
+Albuterol MDI,albuterol mdi,,,0.0
+Nystatin-Triamcinolone Ointment,nystatin-triamcinolone,,,0.0
+Enalapril Maleate,enalapril maleate,,,0.0
+Clonidine Patch 0.3 mg/24 hr,clonidine 0.3 mg/24 hr,,,0.0
+Esmolol in Saline (Iso-osm),esmolol in saline,,,0.0
+Potassium Chl 40 mEq / 1000 mL D5W,potassium chl 40 meq / 1000 ml d5w,,,0.0
+CeftazIDIME,ceftazidime,ceftazidime,J01DD02,1.0
+Phenazopyridine HCl,phenazopyridine hcl,,,0.0
+Methylene Blue 1%,methylene blue 1%,,,0.0
+Desitin,desitin,,,0.0
+Lidocaine 2%,lidocaine 2%,lidocaine,C01BB01,0.75
+LeVETiracetam Solution,levetiracetam,levetiracetam,N03AX14,1.0
+Succinylcholine,succinylcholine,succinylcholine,M03AB01,1.0
+Etomidate,etomidate,etomidate,N01AX07,1.0
+Epidural Bag,epidural bag,,,0.0
+HYDROmorphone P.F.,hydromorphone p.f.,hydromorphone,N02AA03,0.75
+Bupivacaine 0.1%,bupivacaine 0.1%,bupivacaine,N01BB01,0.75
+Heparin Lock Flush,heparin lock flush,heparin,B01AB01,0.95
+Sodium CITRATE 4%,sodium citrate 4%,,,0.0
+Heparin Flush (5000 Units/mL),heparin flush,heparin,B01AB01,0.95
+Midodrine,midodrine,midodrine,C01CA17,1.0
+Nystatin Cream,nystatin,nystatin,A07AA02,1.0
+Risperidone,risperidone,risperidone,N05AX08,1.0
+sevelamer HYDROCHLORIDE,sevelamer hydrochloride,,,0.0
+Prismasate (B22 K4),prismasate,,,0.0
+Citrate Dextrose 3% (ACD-A) CRRT,citrate dextrose 3%,,,0.0
+Cilostazol,cilostazol,,,0.0
+Fosinopril,fosinopril,fosinopril,C09AA09,1.0
+CloniDINE,clonidine,clonidine,C02AC01,1.0
+Rosuvastatin Calcium,rosuvastatin calcium,rosuvastatin,C10AA07,0.75
+Meclizine,meclizine,cyclizine,R06AE03,0.75
+Imipramine,imipramine,imipramine,N06AA02,1.0
+Verapamil SR,verapamil,verapamil,C08DA01,1.0
+Divalproex (EXTended Release),divalproex,,,0.0
+Divalproex Sod. Sprinkles,divalproex sod. sprinkles,,,0.0
+Vigamox,vigamox,,,0.0
+Pentamidine-Inhalation,pentamidine-inhalation,,,0.0
+Methadone,methadone,methadone,N07BC02,1.0
+Collagenase Ointment,collagenase,,,0.0
+Dapsone,dapsone,dapsone,D10AX05,1.0
+Atovaquone Suspension,atovaquoneension,atovaquone,P01AX06,0.75
+Methylnaltrexone,methylnaltrexone,methylnaltrexone,A06AH01,1.0
+ChlorproMAZINE,chlorpromazine,chlorpromazine,N05AA01,1.0
+Syringe (0.9% Sodium Chloride),syringe,,,0.0
+Doxycycline Hyclate,doxycycline hyclate,,,0.0
+Xopenex Neb,xopenex neb,,,0.0
+Clotrimazole,clotrimazole,clotrimazole,A01AB18,1.0
+Magnesium Citrate,magnesium citrate,,,0.0
+Gelclair,gelclair,,,0.0
+Pregabalin,pregabalin,pregabalin,N03AX16,1.0
+Syringe (Chemo),syringe,,,0.0
+Rituximab,rituximab,,,0.0
+Etoposide,etoposide,etoposide,L01CB01,1.0
+Cyclophosphamide,cyclophosphamide,cyclophosphamide,L01AA01,1.0
+DOXOrubicin,doxorubicin,doxorubicin,L01DB01,1.0
+VinCRIStine (Oncovin),vincristine,vincristine,L01CA02,1.0
+Leucovorin Calcium,leucovorin calcium,,,0.0
+Filgrastim,filgrastim,,,0.0
+Methotrexate Sodium,methotrexate sodium,methotrexate,L01BA01,0.75
+Cytarabine,cytarabine,cytarabine,L01BC01,1.0
+Hydrocortisone Na Succinate,hydrocortisone na succinate,,,0.0
+Gammagard Liquid,gammagard,,,0.0
+*NF* Rasburicase,*nf* rasburicase,rasburicase,M04AX01,0.75
+Mesna,mesna,mesna,R05CB05,1.0
+Methotrexate Sodium P.F.,methotrexate sodium p.f.,,,0.0
+Fluticasone Propionate NASAL,fluticasone propionate nasal,,,0.0
+Aluminum Hydroxide Suspension,aluminum hydroxideension,,,0.0
+Bacitracin/Polymyxin B Sulfate Opht. Oint,bacitracin/polymyxin b sulfate opht. oint,,,0.0
+Nortriptyline,nortriptyline,nortriptyline,N06AA10,1.0
+Tizanidine,tizanidine,tizanidine,M03BX02,1.0
+sodium bicar,sodium bicar,,,0.0
+Caphosol,caphosol,,,0.0
+Bupivacaine 0.75%,bupivacaine 0.75%,bupivacaine,N01BB01,0.75
+Bacitracin Ointment,bacitracin,,,0.0
+Megestrol Acetate,megestrol acetate,,,0.0
+Fluticasone-Salmeterol Diskus (100/50),fluticasone-salmeterol diskus,,,0.0
+Thioridazine HCl,thioridazine hcl,thioridazine,N05AC02,0.75
+Carbamazepine XR,carbamazepine,carbamazepine,N03AF01,1.0
+Clotrimazole Cream,clotrimazole,clotrimazole,A01AB18,1.0
+Ny,ny,,,0.0
+Theophylline (Oral Solution),theophylline,theophylline,R03DA04,1.0
+0.83% Sodium Chloride,0.83% sodium chloride,,,0.0

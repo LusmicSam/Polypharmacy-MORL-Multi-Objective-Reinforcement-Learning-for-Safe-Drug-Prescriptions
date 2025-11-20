@@ -1,0 +1,11 @@
+{
+  "total_prescriptions": 10256,
+  "unique_admissions": 121,
+  "unique_patients": 121,
+  "mean_drugs_per_admission": 36.17355371900826,
+  "mean_ddi_per_admission": 49.578512396694215,
+  "mean_major_ddi": 1.578512396694215,
+  "mean_moderate_ddi": 9.884297520661157,
+  "mean_total_side_effects": 0.0,
+  "mean_side_effects_per_drug": 0.0
+}

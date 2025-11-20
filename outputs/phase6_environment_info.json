@@ -1,0 +1,11 @@
+{
+  "env_id": "Polypharmacy-v0",
+  "observation_dim": 5,
+  "action_dim": 2,
+  "reward_dim": 3,
+  "train_admissions": 96,
+  "test_admissions": 25,
+  "mean_age": 72.01041666666667,
+  "mean_drugs": 36.427083333333336,
+  "mean_ddis": 52.416666666666664
+}
